@@ -1,0 +1,24 @@
+{
+  "name": "modmail-bot",
+  "version": "1.0.0",
+  "description": "ModMail Bot é um bot do Discord, com a funcionalidade de \"trocar emails\", nesse bot utilizaremos a livraria do Discord [discord.js](https://discord.js.org/#/), No arquivo config.json e data.js, substitua os textos pelas credenciais.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.0",
+    "firebase": "^8.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardPompeo/ModMail-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabefgonc/ModMail-Bot/issues"
+  },
+  "homepage": "https://github.com/gabefgonc/ModMail-Bot#readme"
+}

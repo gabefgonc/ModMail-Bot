@@ -21,7 +21,7 @@ module.exports = {
 			.setDescription(`Esse comando só pode ser executado via DM (Direct Message).`)
 			return message.channel.send(embed)
     }
-    
+
     if(!args[0]) {
       embed
       .setColor('RED')

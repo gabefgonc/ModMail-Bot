@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js')
-const mapPages = require('../utils/pages/pages')
+const mapPages = require('../pages')
 
 module.exports = {
 	name: 'help',

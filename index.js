@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const { readdirSync } = require('fs')
 const { join } = require('path')
 const config = require('./config.json')
-const firebase = require('./src/utils/database/data')
+const firebase = require('./src/database')
 
 const bot = new Discord.Client()
 bot.commands = new Discord.Collection()
@@ -46,7 +46,6 @@ bot.on('message', async message => {
 	const command =
 		bot.commands.get(commandName) ||
 		bot.commands.find((cmd) => cmd.aliases && cmd.aliases.includes(commandName));
-		
 	if(!command) return;
 
 	try {
